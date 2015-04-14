@@ -29,7 +29,7 @@ maximum_width 1920
 
 alignment bl
 gap_x 0
-gap_y -400
+gap_y -430
 
 # Graphics settings #
 draw_shades no
@@ -58,8 +58,9 @@ ${voffset 8}${goto 60}${color FFFFFF}${font Ubuntu:size=16}${time %A}
 ${voffset 0}${goto 60}${color FFFFFF}${font Ubuntu:size=18}${time %b}
 ${voffset 0}${goto 60}${color FFFFFF}${font Ubuntu:size=20}${time %Y}
 ${voffset -65}${goto 140}${color FFFFFF}${font Ubuntu:size=50}${time %e}${voffset 0}
-${voffset -10}${goto 60}${color FFFFFF}${font Ubuntu:size=40}${time %H} : ${time %M}
-${voffset -145}${color FFFFFF}${font Ubuntu:size=15}${goto 430}CPU${goto 575}MEM${goto 727}DISK${goto 882}ETH${goto 1020}WLAN
+${voffset -20}${goto 60}${color FFFFFF}${font Ubuntu:size=40}${time %H} : ${time %M}
+${voffset -23}${goto 60}${color FFFFFF}${font Ubuntu:size=18}${utime } UTC
+${voffset -140}${color FFFFFF}${font Ubuntu:size=15}${goto 430}CPU${goto 575}MEM${goto 727}DISK${goto 882}ETH${goto 1020}WLAN
 ${voffset 35}${color FFFFFF}${font Ubuntu Mono:size=12}${goto 440}${cpu cpu0}%${goto 505}       RAM : ${memperc }%${goto 695}    / : ${fs_used_perc     /}%${goto 865}DS : ${downspeed eth0}${goto 1015}DS : ${downspeed wlan0}
 ${voffset 0 }${color FFFFFF}${font Ubuntu Mono:size=12}${goto 440}${cpu cpu1}%${goto 505}      Swap : ${swapperc}%${goto 695}/home : ${fs_used_perc /home}%${goto 865}US : ${upspeed   eth0}${goto 1015}US : ${upspeed   wlan0}
 ${voffset 0 }${color FFFFFF}${font Ubuntu Mono:size=12}${goto 440}${cpu cpu2}%${goto 505}  Buffered : ${buffers  }${goto 695}    W : ${diskio_write       }${goto 865}TD : ${totaldown eth0}${goto 1015}TD : ${totaldown wlan0}
