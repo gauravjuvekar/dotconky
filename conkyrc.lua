@@ -40,11 +40,10 @@ conky.config = {
 		default_color = '#FFFFFF',
 
 -- Lua Load
-		lua_load = '~/.conky/draw_bg.lua',
+		lua_load = '~/.conky/helper.lua',
 		lua_draw_hook_pre = 'draw_bg',
-
-		lua_load = '~/.conky/clock_rings.lua',
 		lua_draw_hook_post = 'clock_rings',
+
 };
 conky.text = [[
 ${voffset 8}${goto 60}${color FFFFFF}${font Ubuntu:size=16}${time %A}
