@@ -257,7 +257,7 @@ settings_table = {
     {
         name='downspeedf',
         arg='enx00e04c361a38',
-        max=300,
+        max=8192,
         bg_colour=0x0B8904,
         bg_alpha=0.2,
         fg_colour=0x70C66C,
@@ -271,7 +271,7 @@ settings_table = {
     {
         name='upspeedf',
         arg='enx00e04c361a38',
-        max=300,
+        max=8192,
         bg_colour=0x0B8904,
         bg_alpha=0.2,
         fg_colour=0x70C66C,
@@ -284,7 +284,7 @@ settings_table = {
     },
     {
         name='downspeedf',
-        arg='wlp1s0',
+        arg='wlp2s0',
         max=8192,
         bg_colour=0x0B8904,
         bg_alpha=0.2,
@@ -298,8 +298,8 @@ settings_table = {
     },
     {
         name='upspeedf',
-        arg='8192',
-        max=300,
+        arg='wlp2s0',
+        max=8192,
         bg_colour=0x0B8904,
         bg_alpha=0.2,
         fg_colour=0x70C66C,
