@@ -22,7 +22,7 @@ conky.config = {
 		alignment = 'middle_left',
 		minimum_width = 1918,
         gap_x = 0,
-		gap_y = -770,
+		gap_y = -730,
         xinerama_head = 2,
 
 -- Graphics settings
