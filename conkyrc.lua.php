@@ -19,10 +19,14 @@ conky.config = {
 
 		border_inner_margin = 0,
 		border_outer_margin = 0,
-		alignment = 'middle_left',
+		alignment = 'top_left',
 		minimum_width = 1918,
-        gap_x = 0,
-		gap_y = -730,
+        gap_x = <?php echo 0 + (int) shell_exec( "xrandr | grep primary |
+                                            cut -f4 -d' ' | cut -f2 -d'+'");
+                    ?>,
+        gap_y =  <?php echo 890 + (int)shell_exec( "xrandr | grep primary |
+                                               cut -f4 -d' ' | cut -f3 -d'+'");
+                       ?>,
         xinerama_head = 2,
 
 -- Graphics settings
