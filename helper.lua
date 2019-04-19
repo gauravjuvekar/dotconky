@@ -197,7 +197,6 @@ settings_table = {
         start_angle=-90,
         end_angle=270
     },
-
     {
         name='memperc',
         arg='',
@@ -234,8 +233,6 @@ settings_table = {
         bg_alpha=0.2,
         fg_colour=0x70C66C,
         fg_alpha=0.8,
-        x=750, y=65,
-        radius=40,
         thickness=4,
         start_angle=-90,
         end_angle=270
@@ -256,7 +253,7 @@ settings_table = {
     },
     {
         name='downspeedf',
-        arg='enx00e04c361a38',
+        arg='enp0s31f6',
         max=8192,
         bg_colour=0x0B8904,
         bg_alpha=0.2,
@@ -270,7 +267,7 @@ settings_table = {
     },
     {
         name='upspeedf',
-        arg='enx00e04c361a38',
+        arg='enp0s31f6',
         max=8192,
         bg_colour=0x0B8904,
         bg_alpha=0.2,
@@ -284,7 +281,7 @@ settings_table = {
     },
     {
         name='downspeedf',
-        arg='wlp2s0',
+        arg='wlp0s20f3',
         max=8192,
         bg_colour=0x0B8904,
         bg_alpha=0.2,
@@ -298,7 +295,7 @@ settings_table = {
     },
     {
         name='upspeedf',
-        arg='wlp2s0',
+        arg='wlp0s20f3',
         max=8192,
         bg_colour=0x0B8904,
         bg_alpha=0.2,
